@@ -6,7 +6,7 @@ class Landing extends Component {
   render() {
     return (
       <div>
-      <div className="row">
+      <div className="row push-down">
         <div className="col m12 offset-1">
         <div className="container-desc">
           <h5 className="desc-header">About the Game: </h5>
@@ -21,11 +21,17 @@ class Landing extends Component {
             <li>LEFT arrow to turn left</li>
             <li>SPACEBAR to jump/drift</li>
           </ul>
+          <Link
+                to="/nav"
+                className="btn btn-outline-primary"
+              >
+                Next
+          </Link>
         </div>
         </div>
       </div>
       
-      <div className="container-landing">
+      {/* <div className="container-landing">
         <div className="row">
           <div className="login-head center-align">
             <h6 className="login-title">
@@ -50,7 +56,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       </div>
     );
   }
