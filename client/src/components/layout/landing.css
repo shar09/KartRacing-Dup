@@ -36,3 +36,11 @@
     font-weight: 600;
     font-size: 18px;
 }
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.push-down {
+    padding-top: 300px;
+}
