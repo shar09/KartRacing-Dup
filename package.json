@@ -27,7 +27,7 @@
     "react-script": "^2.0.5",
     "react-scripts": "^3.0.1",
     "react-unity-webgl": "^7.1.7",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
